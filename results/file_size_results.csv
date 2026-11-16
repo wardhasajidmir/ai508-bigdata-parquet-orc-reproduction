@@ -1,0 +1,16 @@
+Scale_Factor,Table,Raw_Size_MB,Parquet_Size_MB,ORC_Size_MB,Parquet_Compression_Ratio,ORC_Compression_Ratio,Optimal_Format
+SF1,customer,12.6,5.34,5.16,0.424,0.409,ORC
+SF1,item,4.82,1.72,1.64,0.356,0.341,ORC
+SF1,store,0.0,0.01,0.01,3.313,1.725,ORC
+SF1,date_dim,9.84,1.8,0.48,0.183,0.049,ORC
+SF1,store_sales,370.45,140.81,164.42,0.38,0.444,Parquet
+SF2,customer,18.2,7.59,7.39,0.417,0.406,ORC
+SF2,item,6.98,2.47,2.37,0.354,0.34,ORC
+SF2,store,0.01,0.01,0.01,1.993,1.12,ORC
+SF2,date_dim,9.84,1.8,0.48,0.183,0.049,ORC
+SF2,store_sales,747.71,286.1,329.84,0.383,0.441,Parquet
+SF5,customer,35.19,14.41,14.13,0.409,0.401,ORC
+SF5,item,14.5,5.07,4.87,0.35,0.336,ORC
+SF5,store,0.01,0.01,0.01,1.081,0.699,ORC
+SF5,date_dim,9.84,1.8,0.48,0.183,0.049,ORC
+SF5,store_sales,1889.46,716.46,841.27,0.379,0.445,Parquet
